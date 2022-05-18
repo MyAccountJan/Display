@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+body {
+    font-size: 1.60rem;
+}
+
+header {
+    background-color: black;
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 70px;
+}
+
+main {
+    display: flex;
+}
+
+.srodek,
+nav,
+aside {
+    height: 450px;
+    padding-top: 5px;
+}
+
+.srodek {
+    background-color: rgb(86, 182, 214);
+    width: 58%;
+}
+
+nav {
+    background-color: magenta;
+    width: 26%;
+}
+
+aside {
+    background-color: rgb(255, 255, 0);
+    width: 26%;
+}
+
+.menu, 
+footer {
+    background-color: rgb(165, 165, 165);
+    padding-top: 2px;
+    padding-bottom: 40px;
+}
+
+/* Strona została odwzorowana 1:1 */
